@@ -1,0 +1,129 @@
+.footer {
+    width: 100%;
+
+
+    p{
+    font-size: 25px;
+    padding-left: 15px;
+    }
+
+}
+
+.footer__1{
+    margin-top: 15px;
+    background-color: $color-primary;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+
+
+.footer__imagenes{
+    width: 20px;
+}
+
+
+.footer__imagenes_2{
+    width: 32px;
+    
+}
+
+.footer__Contactanos{
+    background-color: #f0eeef;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    list-style: none;
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    
+}
+
+.footer__Contactanos__a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer__Atencion{
+    padding-top: 15px;
+    background-color: #f0eeef;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    list-style: none;
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+}
+
+.footer__Atencion__a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer__Envios{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f0eeef;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    list-style: none;
+}
+
+.footer__MetPagos{
+    background-color: #f0eeef;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    list-style: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color:#d4c1cb;;
+}
+
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #d4c1cb;
+
+}
+
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #fe86f4 !important;
+    outline: 0;
+    box-shadow: none !important ;
+
+}
+
+#cupon{
+    display: flex;
+    justify-content: center;
+}
+
+#cupon2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mail_form{
+    padding-left: 15px;
+    height: 35px;
+    width: 220px;
+    border: none;
+}
+
+.boton_form{
+    margin-left: 20px;
+    height: 35px;
+    width: 110px;
+    border: none;
+    color: #f0eeef;
+    background-color: #000000;
+}
