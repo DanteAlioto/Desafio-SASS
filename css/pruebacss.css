@@ -664,3 +664,25 @@ footer {
     background-position: 100% 50%; }
   100% {
     background-position: 0% 50%; } }
+
+.color-primary {
+  color: #1193bb; }
+
+.color-secondary {
+  color: #2a11bb; }
+
+.color-tertiary {
+  color: #bb11b2; }
+
+.boton, .boton-primario {
+  border: solid 2px;
+  padding: 8px 16px;
+  margin: 8px; }
+
+.boton-primario {
+  background-color: antiquewhite; }
+
+.potatoe {
+  height: 8px;
+  width: 16px;
+  margin: 24px; }

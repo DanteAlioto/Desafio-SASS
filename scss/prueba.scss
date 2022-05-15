@@ -16,7 +16,46 @@
 @import "KeyFrames";
 
 
+// MAPS
+
+$pallete: (
+    primary: rgb(17, 147, 187),
+    secondary: rgb(42, 17, 187),
+    tertiary: rgb(187, 17, 178),
+);
 
 
+@each $valor, $color in $pallete {
+    .color-#{$valor} {
+        color: $color;
+    }
+}
+
+// EXTEND
 
 
+.boton {
+    border: solid 2px ;
+    padding: 8px 16px;
+    margin: 8px;
+}
+
+.boton-primario{
+    @extend .boton;
+    background-color: antiquewhite;
+
+}
+
+//MIXIN
+
+@mixin nombre ($alto, $ancho, $margin) {
+    height: $alto;
+    width: $ancho;
+    margin: $margin;
+}
+    
+
+.potatoe {
+    @include nombre (8px,16px,24px);
+
+}
