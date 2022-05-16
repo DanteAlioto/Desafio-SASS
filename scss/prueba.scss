@@ -16,46 +16,58 @@
 @import "KeyFrames";
 
 
+
+
+
+
 // MAPS
 
-$pallete: (
-    primary: rgb(17, 147, 187),
-    secondary: rgb(42, 17, 187),
-    tertiary: rgb(187, 17, 178),
+$paddings: (
+    multiproposito: 20px ,
+    indumentaria: 20px ,
+    decoracion: 20px ,
 );
 
 
-@each $valor, $color in $pallete {
-    .color-#{$valor} {
-        color: $color;
+@each $valor, $numero in $paddings {
+    .padding-#{$valor} {
+        padding-top: $numero;
     }
 }
 
+
 // EXTEND
 
-
-.boton {
-    border: solid 2px ;
-    padding: 8px 16px;
-    margin: 8px;
+.pricipal__section__insti{
+    padding-bottom: 20px;
+    font-family: 'Barlow', sans-serif;
+    margin: 0px;
+    text-align:justify;
+    
+    background-color: $color-primary;
 }
 
-.boton-primario{
-    @extend .boton;
-    background-color: antiquewhite;
-
+.section__insti__h3{
+    @extend .pricipal__section__insti;
+    padding-top: 20px;
+    padding-left:20px;
+    font-size: 30px;
 }
+
 
 //MIXIN
 
-@mixin nombre ($alto, $ancho, $margin) {
-    height: $alto;
-    width: $ancho;
-    margin: $margin;
+@mixin size {
+    width: 100%;
+    padding-top: 10px;
 }
-    
 
-.potatoe {
-    @include nombre (8px,16px,24px);
 
+.iframe{
+
+    @include size ;
 }
+
+
+
+
