@@ -42,6 +42,11 @@ Telas-indumentaria// En el archivo telas-indumentaria.html sumé el SEO con las 
 Telas-multiporposito// En el archivo telas-multiproposito.html sumé el SEO con las siguientes características:
 
 -Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Textile es el primer sitio web de Argentina en comercializar productos textiles en los rubros de Confección y Deco&Hogar. Mira nuestra pagina Multiproposito"
+
 -Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "Textile, Telas para Indumentaria, telas para Decoracion, Multiproposito, Batista, Black out, Arpillera, Categorias Destacadas"
 
 -Titulo: para el titulo, cambie de "Textile" a "Textile - Multiproposito"
+
+
+
+Prueba-scss// En el archivo prueba.scss sumé un Map, un Extend y un Mixin
