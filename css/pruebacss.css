@@ -15,8 +15,7 @@ main {
   grid-area: main; }
 
 footer {
-  grid-area: footer;
-  background-color: #f0eeefe0; }
+  grid-area: footer; }
 
 .header__pegajoso {
   opacity: 100%;
@@ -351,12 +350,13 @@ footer {
 .footer {
   width: 100%; }
   .footer p {
-    font-size: 25px;
+    font-weight: 900;
+    font-family: "Roboto";
+    font-size: 20px;
     padding-left: 15px; }
 
 .footer__1 {
   margin-top: 15px;
-  background-color: #f0eeefe0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -369,26 +369,26 @@ footer {
   width: 32px; }
 
 .footer__Contactanos {
-  background-color: #f0eeef;
   padding-bottom: 15px;
   padding-top: 15px;
   padding-left: 15px;
   list-style: none;
-  font-family: 'Barlow', sans-serif;
-  font-size: 15px; }
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 800; }
 
 .footer__Contactanos__a {
   text-decoration: none;
-  color: #000000; }
+  color: #e47f8d; }
 
 .footer__Atencion {
   padding-top: 15px;
-  background-color: #f0eeef;
   padding-bottom: 15px;
   padding-left: 15px;
   list-style: none;
-  font-family: 'Barlow', sans-serif;
-  font-size: 15px; }
+  font-family: "Roboto" !important;
+  font-size: 15px;
+  font-weight: 800; }
 
 .footer__Atencion__a {
   text-decoration: none;
@@ -398,13 +398,11 @@ footer {
   padding-top: 15px;
   display: flex;
   flex-direction: column;
-  background-color: #f0eeef;
   padding-bottom: 15px;
   padding-left: 100px;
   list-style: none; }
 
 .footer__MetPagos {
-  background-color: #f0eeef;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 40px;
@@ -423,6 +421,11 @@ footer {
   border-color: #fe86f4 !important;
   outline: 0;
   box-shadow: none !important; }
+
+.footer__li__color {
+  list-style: none;
+  font-weight: 800;
+  color: #e47f8d; }
 
 /*media queries*/
 @media (min-width: 120px) and (max-width: 1023px) {
